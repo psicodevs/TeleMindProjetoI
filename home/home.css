@@ -1,0 +1,172 @@
+:root {
+    /* Colors */
+    --azul-void: #01080e;
+    --azul-escuro: #041832;
+    --azul-medio: #144480;
+    --azul-neon: #2bdefd;
+    --roxo: #8026f1;
+    --cinza: #c4c4c4;
+    --cinza-claro: #e3e3e3;
+    --branco: #ffffff;
+    --azul-escuro-degrade: linear-gradient(
+      52.7deg,
+      rgba(7, 32, 65, 1) 0%,
+      rgba(4, 24, 51, 1) 50%,
+      rgba(21, 69, 128, 1) 100%
+    );
+  
+    /* Fonts */
+    --texto-leve-font-family: Inter-Light, sans-serif;
+    --texto-leve-font-size: 16px;
+    --texto-leve-line-height: normal;
+    --texto-leve-font-weight: 300;
+    --texto-leve-font-style: normal;
+    --texto-medio-font-family: Inter-Medium, sans-serif;
+    --texto-medio-font-size: 16px;
+    --texto-medio-line-height: normal;
+    --texto-medio-font-weight: 500;
+    --texto-medio-font-style: normal;
+    --texto-negrito-font-family: Inter-Bold, sans-serif;
+    --texto-negrito-font-size: 16px;
+    --texto-negrito-line-height: normal;
+    --texto-negrito-font-weight: 700;
+    --texto-negrito-font-style: normal;
+  
+}
+
+#container{
+
+}
+#header{        
+    display: flex;
+    flex-direction: row;
+    font-family: var(--texto-medio-font-family);
+    height: 59px;
+    width: 324px;
+}
+
+#bem-vindo, a{
+    font-size: medium;
+    color: #041832;
+    width: 400%;
+    margin-top: 5%;
+    
+}
+
+#consultas{
+    
+    
+}
+
+#tabela-linhas, td{
+    display: flex;
+    flex-direction: ?;
+}
+#tabela{
+    height: 50vh;
+    width: 100vh;
+    background-color: #e3e3e3;
+}
+
+#consultas-data, #consultas-hora{
+    background-color: var(--cinza);
+    border: none;
+
+}
+
+#paciente{
+   color: var(--cinza-claro); 
+}
+
+#consultas-financeiro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#faturamento-box{
+    background-color: #144480;
+    
+}
+#em-aberto-box{
+    background-color:#8026f1;
+    
+}
+
+#faturamento-box, #em-aberto-box{
+    border-radius: 10px;
+    padding: 3px; 
+    width:130px;
+    height:54px;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#faturamento-mes, #valores-em-aberto{
+    font-size: small;
+    ;
+}
+
+#quantia-faturamento, #quantia-valores-em-aberto{
+    
+}
+
+#consultas-financeiro{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+/* Rectangle 73 */
+
+position: absolute;
+width: 130px;
+height: 54px;
+left: 38px;
+top: 433px;
+
+/* Azul Médio */
+background: #144480;
+border-radius: 10px;
+
+
+/* Faturamento Mês */
+
+position: absolute;
+width: 91px;
+height: 12px;
+left: 46px;
+top: 438px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.5px;
+
+/* Branco */
+color: #FFFFFF;
+
+
+
+/* R$ 500,00 */
+
+position: absolute;
+width: 98px;
+height: 22px;
+left: 46px;
+top: 455px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.5px;
+
+/* Branco */
+color: #FFFFFF;
+
