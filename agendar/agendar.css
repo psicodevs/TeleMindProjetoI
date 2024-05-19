@@ -1,0 +1,71 @@
+/* Página Agendar */
+
+.agendar-consulta-modal,
+.agendar-consulta-modal * {
+  box-sizing: border-box;
+}
+.agendar-consulta-modal {
+  background: var(--cinza-claro, #e3e3e3);
+  height: 490px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-83 {
+  background: #d9d9d9;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 1px;
+  width: 339px;
+  height: 38px;
+  position: absolute;
+  left: 27px;
+  top: 39px;
+}
+.rectangle-84 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 1px;
+  width: 191px;
+  height: 38px;
+  position: absolute;
+  left: 42px;
+  top: 100px;
+}
+.pesquisas-clientes {
+  color: #a5a5a5;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 37px;
+  top: 46px;
+}
+.hor-rio {
+  color: #a5a5a5;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 52px;
+  top: 107px;
+  width: 159px;
+  height: 23px;
+}
+.vector {
+  width: 4.58%;
+  height: 3.67%;
+  position: absolute;
+  right: 9.42%;
+  left: 86.01%;
+  bottom: 86.73%;
+  top: 9.59%;
+  overflow: visible;
+}
+
+
+/* Fim Página Agendar */
