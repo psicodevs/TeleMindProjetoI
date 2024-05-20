@@ -1,15 +1,23 @@
 /*Página Consultar*/
 
+#cabecalho {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 .consultar-dados-cliente,
 .consultar-dados-cliente * {
   box-sizing: border-box;
 }
-.consultar-dados-cliente {
+
+#consultar-dados-cliente {
   background: var(--cinza-claro, #e3e3e3);
   height: 1131px;
   position: relative;
   overflow: hidden;
 }
+
 .rectangle-83 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -22,6 +30,7 @@
   left: 40px;
   top: 35px;
 }
+
 .nome-completo {
   color: #262626;
   text-align: left;
@@ -32,6 +41,7 @@
   left: 60px;
   top: 47px;
 }
+
 .rectangle-84 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -44,6 +54,7 @@
   left: 40px;
   top: 94px;
 }
+
 ._29-09-1991 {
   color: #262626;
   text-align: left;
@@ -55,6 +66,7 @@
   top: 106px;
   width: 121px;
 }
+
 .rectangle-85 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -67,6 +79,7 @@
   left: 186px;
   top: 95px;
 }
+
 ._123-123-123-22 {
   color: #262626;
   text-align: left;
@@ -77,6 +90,7 @@
   left: 197px;
   top: 107px;
 }
+
 .rectangle-86 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -89,6 +103,7 @@
   left: 40px;
   top: 154px;
 }
+
 .fulano-algumemail-com {
   color: #262626;
   text-align: left;
@@ -99,6 +114,7 @@
   left: 60px;
   top: 166px;
 }
+
 .rectangle-87 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -111,6 +127,7 @@
   left: 40px;
   top: 214px;
 }
+
 .rectangle-88 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -123,6 +140,7 @@
   left: 207px;
   top: 214px;
 }
+
 ._11-2222-2222 {
   color: #262626;
   text-align: left;
@@ -134,6 +152,7 @@
   top: 228px;
   width: 127px;
 }
+
 ._11-2222-22222 {
   color: #262626;
   text-align: left;
@@ -145,6 +164,7 @@
   top: 228px;
   width: 127px;
 }
+
 .rectangle-92 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -157,6 +177,7 @@
   left: 40px;
   top: 274px;
 }
+
 ._03218-018 {
   color: #262626;
   text-align: left;
@@ -167,6 +188,7 @@
   left: 60px;
   top: 286px;
 }
+
 .rectangle-89 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -179,6 +201,7 @@
   left: 40px;
   top: 334px;
 }
+
 .rua-das-pessoas {
   color: #262626;
   text-align: left;
@@ -189,6 +212,7 @@
   left: 60px;
   top: 346px;
 }
+
 .rectangle-90 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -201,6 +225,7 @@
   left: 40px;
   top: 394px;
 }
+
 ._1258 {
   color: #262626;
   text-align: left;
@@ -211,6 +236,7 @@
   left: 60px;
   top: 406px;
 }
+
 .rectangle-91 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -223,6 +249,7 @@
   left: 169px;
   top: 393px;
 }
+
 .bairro {
   color: #262626;
   text-align: left;
@@ -233,6 +260,7 @@
   left: 189px;
   top: 405px;
 }
+
 .rectangle-93 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -245,6 +273,7 @@
   left: 40px;
   top: 454px;
 }
+
 .rectangle-100 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -257,6 +286,7 @@
   left: 245px;
   top: 454px;
 }
+
 .rectangle-94 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -269,6 +299,7 @@
   left: 40px;
   top: 553px;
 }
+
 .rectangle-96 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -281,6 +312,7 @@
   left: 40px;
   top: 902px;
 }
+
 .rectangle-97 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -293,6 +325,7 @@
   left: 221px;
   top: 902px;
 }
+
 .rectangle-95 {
   background: var(--cinza-claro, #e3e3e3);
   border-radius: 8px;
@@ -305,6 +338,7 @@
   left: 40px;
   top: 612px;
 }
+
 .s-o-paulo {
   color: #262626;
   text-align: left;
@@ -315,6 +349,7 @@
   left: 60px;
   top: 466px;
 }
+
 .uf {
   color: #262626;
   text-align: left;
@@ -326,6 +361,7 @@
   top: 466px;
   width: 56px;
 }
+
 ._012262 {
   color: #262626;
   text-align: left;
@@ -336,6 +372,7 @@
   left: 60px;
   top: 565px;
 }
+
 .plano {
   color: #a5a5a5;
   text-align: left;
@@ -346,6 +383,7 @@
   left: 43px;
   top: 875px;
 }
+
 .master {
   color: #262626;
   text-align: left;
@@ -356,6 +394,7 @@
   left: 54px;
   top: 912px;
 }
+
 ._01-01-2024 {
   color: #262626;
   text-align: left;
@@ -366,6 +405,7 @@
   left: 232px;
   top: 913px;
 }
+
 .data-pagamento {
   color: #a5a5a5;
   text-align: left;
@@ -376,6 +416,7 @@
   left: 226px;
   top: 880px;
 }
+
 .tranquilo-das-id-ias {
   color: #262626;
   text-align: left;
@@ -386,6 +427,7 @@
   left: 60px;
   top: 624px;
 }
+
 .respons-veis {
   color: var(--azul-escuro, #041832);
   text-align: left;
@@ -401,6 +443,7 @@
   top: 45.8%;
   height: 2.03%;
 }
+
 .rectangle-98 {
   background: var(--azul-medio, #144480);
   border-radius: 8px;
@@ -410,6 +453,7 @@
   left: 40px;
   top: 983px;
 }
+
 .rectangle-99 {
   background: #ff2525;
   border-radius: 8px;
@@ -418,10 +462,12 @@
   position: absolute;
   left: 207px;
   top: 983px;
+  
 }
-.editar {
+
+  .rectangle-98{
   color: var(--branco, #ffffff);
-  text-align: left;
+  text-align: center;
   font-family: "Inter-Medium", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -429,9 +475,10 @@
   left: 86px;
   top: 994px;
 }
-.excluir {
+
+  .rectangle-99{
   color: var(--branco, #ffffff);
-  text-align: left;
+  text-align: center;
   font-family: "Inter-Medium", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -439,12 +486,52 @@
   left: 253px;
   top: 994px;
 }
+
+.group-49,
+.group-49 * {
+  box-sizing: border-box;
+}
+
 .group-49 {
   height: auto;
-  position: absolute;
-  left: 0px;
-  top: 1062px;
+  position: relative;
   overflow: visible;
+}
+
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --azul-void: #01080e;
+  --azul-escuro: #041832;
+  --azul-medio: #144480;
+  --azul-neon: #2bdefd;
+  --roxo: #8026f1;
+  --cinza: #c4c4c4;
+  --cinza-claro: #e3e3e3;
+  --branco: #ffffff;
+  --azul-escuro-degrade: linear-gradient(52.7deg,
+      rgba(7, 32, 65, 1) 0%,
+      rgba(4, 24, 51, 1) 50%,
+      rgba(21, 69, 128, 1) 100%);
+
+  /* Fonts */
+  --texto-leve-font-family: Inter-Light, sans-serif;
+  --texto-leve-font-size: 16px;
+  --texto-leve-line-height: normal;
+  --texto-leve-font-weight: 300;
+  --texto-leve-font-style: normal;
+  --texto-medio-font-family: Inter-Medium, sans-serif;
+  --texto-medio-font-size: 16px;
+  --texto-medio-line-height: normal;
+  --texto-medio-font-weight: 500;
+  --texto-medio-font-style: normal;
+  --texto-negrito-font-family: Inter-Bold, sans-serif;
+  --texto-negrito-font-size: 16px;
+  --texto-negrito-line-height: normal;
+  --texto-negrito-font-weight: 700;
+  --texto-negrito-font-style: normal;
+
+  /* Effects */
 }
 
 
