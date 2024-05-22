@@ -1,5 +1,11 @@
 /* Página Agendar */
 
+#cabecalho {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 .agendar-consulta-modal,
 .agendar-consulta-modal * {
   box-sizing: border-box;
@@ -67,5 +73,58 @@
   overflow: visible;
 }
 
+.rectangle-147,
+.rectangle-147 * {
+  box-sizing: border-box;
+}
+.rectangle-147 {
+  background: #ffffff;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--cinza, #c4c4c4);
+  border-width: 1px;
+  width: 311.33px;
+  height: 260px;
+  position: relative;
+}
+
+/* Figma Styles of your File */
+
+:root {
+  /* Colors */
+  --azul-void: #01080e;
+  --azul-escuro: #041832;
+  --azul-medio: #144480;
+  --azul-neon: #2bdefd;
+  --roxo: #8026f1;
+  --cinza: #c4c4c4;
+  --cinza-claro: #e3e3e3;
+  --branco: #ffffff;
+  --azul-escuro-degrade: linear-gradient(
+    52.7deg,
+    rgba(7, 32, 65, 1) 0%,
+    rgba(4, 24, 51, 1) 50%,
+    rgba(21, 69, 128, 1) 100%
+  );
+
+  /* Fonts */
+  --texto-leve-font-family: Inter-Light, sans-serif;
+  --texto-leve-font-size: 16px;
+  --texto-leve-line-height: normal;
+  --texto-leve-font-weight: 300;
+  --texto-leve-font-style: normal;
+  --texto-medio-font-family: Inter-Medium, sans-serif;
+  --texto-medio-font-size: 16px;
+  --texto-medio-line-height: normal;
+  --texto-medio-font-weight: 500;
+  --texto-medio-font-style: normal;
+  --texto-negrito-font-family: Inter-Bold, sans-serif;
+  --texto-negrito-font-size: 16px;
+  --texto-negrito-line-height: normal;
+  --texto-negrito-font-weight: 700;
+  --texto-negrito-font-style: normal;
+
+  /* Effects */
+}
 
 /* Fim Página Agendar */
