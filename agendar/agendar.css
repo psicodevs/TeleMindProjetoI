@@ -73,6 +73,19 @@
   overflow: visible;
 }
 
+.ellipse-1,
+.ellipse-1 * {
+  box-sizing: border-box;
+}
+.ellipse-1 {
+  background: var(--azul-medio, #144480);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  position: relative;
+}
+
+
 .rectangle-147,
 .rectangle-147 * {
   box-sizing: border-box;
