@@ -1,5 +1,11 @@
 /* Página Agenda */
 
+#cabecalho {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 .agenda,
 .agenda * {
   box-sizing: border-box;
