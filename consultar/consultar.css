@@ -535,4 +535,34 @@
 }
 
 
+/* CONSTRUÇÃO DOS BOTÕES */
+/*   input {
+    width: 313px;
+    height: 46px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+    input::placeholder{
+    font-size: larger;
+    font-family: var(--texto-medio-font-family);
+}
+  
+  input[type="submit"] {
+    height: 41px;
+    border-radius: 5px;
+    background-color: #144480;
+    color: white;
+    cursor: pointer;
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  input[type="submit"]:hover{
+    background-color: #041832;
+  } */
+
 /* Fim da Página Consultar */
