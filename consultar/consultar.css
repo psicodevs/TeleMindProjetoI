@@ -444,49 +444,6 @@
   height: 2.03%;
 }
 
-.rectangle-98 {
-  background: var(--azul-medio, #144480);
-  border-radius: 8px;
-  width: 149px;
-  height: 46px;
-  position: absolute;
-  left: 40px;
-  top: 983px;
-}
-
-.rectangle-99 {
-  background: #ff2525;
-  border-radius: 8px;
-  width: 149px;
-  height: 46px;
-  position: absolute;
-  left: 207px;
-  top: 983px;
-  
-}
-
-  .rectangle-98{
-  color: var(--branco, #ffffff);
-  text-align: center;
-  font-family: "Inter-Medium", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  position: absolute;
-  left: 86px;
-  top: 994px;
-}
-
-  .rectangle-99{
-  color: var(--branco, #ffffff);
-  text-align: center;
-  font-family: "Inter-Medium", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  position: absolute;
-  left: 253px;
-  top: 994px;
-}
-
 .group-49,
 .group-49 * {
   box-sizing: border-box;
@@ -534,35 +491,67 @@
   /* Effects */
 }
 
-
-/* CONSTRUÇÃO DOS BOTÕES */
-/*   input {
-    width: 313px;
-    height: 46px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-    input::placeholder{
-    font-size: larger;
-    font-family: var(--texto-medio-font-family);
+input {
+  background:#144480;
+  width: 313px;
+  height: 46px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-  
-  input[type="submit"] {
-    height: 41px;
-    border-radius: 5px;
-    background-color: #144480;
-    color: white;
-    cursor: pointer;
-    margin-top: 20%;
-    font-weight: bold;
-    font-size: larger;
-  }
 
-  input[type="submit"]:hover{
-    background-color: #041832;
-  } */
+  input::placeholder{
+  font-size: larger;
+  font-family: var(--texto-medio-font-family);
+}
+
+input.rectangle-98[type="submit"] {
+  height: 41px;
+  border-radius: 5px;
+  color: #ff2525;
+  cursor: pointer;
+  margin-top: 20%;
+  font-weight: bold;
+  font-size: larger;
+}
+
+input.rectangle-99[type="submit"] {
+  height: 41px;
+  border-radius: 5px;
+  color:#144480;
+  cursor: pointer;
+  margin-top: 20%;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+input[type="submit"]:hover{
+  background-color: #041832;
+}
+
+.rectangle-98{
+  color: #144480;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  left: 83px;
+  top: 994px;
+}
+
+  .rectangle-99{
+  color:#ff2525;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 253px;
+  top: 994px;
+}
+
 
 /* Fim da Página Consultar */
