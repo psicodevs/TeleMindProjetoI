@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <head>
-    <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="login.css">
     </head>
     <title>Login</title>
 </head>
+
 <body>
-    
-<div id="container">
-    <div id="logo-brand">  
-        <svg id="logo" viewBox="0 0 100 100">
-            <img id="logo-svg"  src="assets/logo.svg" alt="Logotipo da marca Telemind, gradiente roxo e azul, imagem de um cérebro ">
-            <img  id="marca" src="assets/brand.svg" alt="Texto com o nome da marca: Telemind">
-        </svg>
+
+    <div id="container">
+        <div id="logo-brand">
+            <svg id="logo" viewBox="0 0 100 100">
+                <img id="logo-svg" src="assets/logo.svg"
+                    alt="Logotipo da marca Telemind, gradiente roxo e azul, imagem de um cérebro ">
+                <img id="marca" src="assets/brand.svg" alt="Texto com o nome da marca: Telemind">
+            </svg>
+        </div>
+
+        <form id="login-dados">
+            <input type="text" placeholder="Username" required>
+
+            <input type="password" placeholder="Password" required>
+
+            <input type="submit" value="ENTRAR">
+
+            <a id="cadastre-se" href="/TeleMind/cadastrar/index.html">Nao tem conta? <b>Cadastre-se</b></a>
+        </form>
+
+
+
     </div>
 
-    <form id="login-dados">
-        <input type="text" placeholder="Username" required>
-    
-        <input type="password" placeholder="Password" required>
-    
-        <input type="submit" value="ENTRAR">
+    <div class="footer">
 
-        <a id="cadastre-se" href="login.html">Nao tem conta? <b>Cadastre-se</b></a>
-    </form>
-    
-    
-    
-</div>
+        <p>&copy; 2024 TeleMind</p>
 
+    </div>
 
 </body>
+
 </html>

@@ -795,5 +795,12 @@
   overflow: visible;
 }
 
+/* Footer */
+.footer {
+  text-decoration:none;
+  text-align: left;
+  color: #144480;
+ 
+}
 
 /* Fim Página Agenda */

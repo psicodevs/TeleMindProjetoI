@@ -553,5 +553,12 @@ input[type="submit"]:hover{
   top: 994px;
 }
 
+/* Footer */
+.footer {
+  text-decoration:none;
+  text-align: left;
+  color: #144480;
+ 
+}
 
 /* Fim da Página Consultar */

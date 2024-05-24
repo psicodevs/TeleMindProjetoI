@@ -44,6 +44,10 @@ button {
   color: white;
 }
 
+#cabecalho {
+  width: 100%;
+}
+
 #header {
   padding: 10px;
   color: var(--header-color) ;
@@ -153,4 +157,13 @@ button {
   position: absolute;
   background-color: rgba(0,0,0,0.8);
 }
+
+/* Footer */
+.footer {
+  text-decoration:none;
+  text-align: center;
+  color: #144480;
+ 
+}
+
 

@@ -133,3 +133,11 @@ body {
   #cadastre-se:hover {
     color: #041832;
   }
+
+  /* Footer */
+  .footer {
+    text-decoration:none;
+    text-align: left;
+    color: #144480;
+   
+}
