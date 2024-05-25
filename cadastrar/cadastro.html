@@ -12,7 +12,7 @@
 
   <link rel="stylesheet" href="./style.css" />
 
-  <title>Cadastro de Pacientes</title>
+  <title>Cadastro</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
     </div>
 
     <section class="header">
-      <h2>Consultar Pacientes</h2>
+      <h2>Pesquisar</h2>
     </section>
 
     <form id="form" class="form">
@@ -77,10 +77,13 @@
         <a>Aqui vai a mensagem de erro....</a>
       </div>
 
-      <div class="form-content">
-        <label for="descricao">Descrição</label>
-        <input type="text" id="descricao" placeholder="Descrição..." />
-        <a>Aqui vai a mensagem de erro....</a>
+      <div class="row">
+        <div class="col-25">
+          <label for="descricao">Descrição</label>
+        </div>
+        <div class="col-75">
+          <textarea id="descricao" name="descricao" placeholder=" Escreva algo..." style="height:200px"></textarea>
+        </div>
       </div>
       
       <button type="submit">Pesquisar</button>
