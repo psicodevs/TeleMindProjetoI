@@ -42,10 +42,10 @@ Em construção...
 <h3>Front-end</h3>
 <ul>
     <li><b>Status: </b>em progresso.</li>
-    <li><b>Tecnologias: </b>HTML e CSS.</li>
+    <li><b>Tecnologias: </b>HTML, CSS, Javascript e PHP.</li>
 </ul>
 <h3>Back-end</h3>
-    <li>Python</li>
+    <li>PHP</li>
 <ul>
     <li><b>Status: </b>em progresso.</li>   
     <li><b>Observações: </b> Foi utilizada a linguagem SQL (Banco de dados).</li>
@@ -53,7 +53,7 @@ Em construção...
 <h3>Base de dados</h3>
 <ul>
     <li><b>Status: </b>em progresso.</li>
-    <li><b>Tecnologias: </b>MySQL e BrModelo... em construção</li>
+    <li><b>Tecnologias: </b>MySQL</li>
 </ul>
 
 
@@ -67,7 +67,7 @@ Em construção...
 <h4>Paulo Ricardo Andrade Barroso;</h4>
 <h4>Sergio Martins Tomaz Junior;</h4>
  
-<h3> User name github: anafontessp... (em construção)</h2>
+<h3> User name github: anafontessp (em construção)</h2>
 
 
 
