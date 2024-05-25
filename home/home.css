@@ -1,0 +1,279 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+:root {
+    /* Colors */
+    --azul-void: #01080e;
+    --azul-escuro: #041832;
+    --azul-medio: #144480;
+    --azul-neon: #2bdefd;
+    --roxo: #8026f1;
+    --cinza: #c4c4c4;
+    --cinza-claro: #e3e3e3;
+    --branco: #ffffff;
+    --azul-escuro-degrade: linear-gradient(
+      52.7deg,
+      rgba(7, 32, 65, 1) 0%,
+      rgba(4, 24, 51, 1) 50%,
+      rgba(21, 69, 128, 1) 100%
+    );
+ 
+}
+body{
+    background: var(--cinza-claro, #e3e3e3);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    #cabecalho {
+      width: 600px;
+      height: auto;
+      margin-bottom: 20px;
+    }   
+
+}
+#header-box{
+    width: 647px;
+    align-items: center;
+}
+#header{        
+    display: flex;
+    flex-direction: row;
+    font-family: var(--texto-medio-font-family);
+    height: 59px;
+    width: 600px;
+    justify-content: left;
+}
+
+#bem-vindo,#grafico-consultas, h2,a{
+    font-size: medium;
+    justify-items: left;
+    color: #041832;
+    width:  300%;
+    
+       
+    
+}
+
+#consultas{
+    align-content: center;
+    
+    
+}
+h2{
+    font-size: 18px;
+    margin-top: 5%;
+    
+}
+
+table{
+    display: flex;
+    flex-direction:row;
+    height: 50vh;
+    width: 100vh;
+    
+}
+#paciente-nome, #data-consulta, #hora-consulta{
+    color: #5F5F5F;
+    
+    
+}
+tr{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 4px 0 2px 0;
+    justify-content: space-between;
+    border: solid;
+    border-color: #5F5F5F;
+    border-width: 3px 0 0 0;
+}
+
+th{
+    color: #5f5f5f;
+    display: flex; 
+    align-content: flex-start; 
+}
+
+#consultas-financeiro{
+    width: 647px;
+    height: 60px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+#faturamento-box{
+    background-color: #144480;
+}
+#em-aberto-box{
+    background-color:#8026f1;
+}
+
+#faturamento-box, #em-aberto-box{
+    border-radius: 10px;
+    padding: 3px; 
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:130px;
+    height:54px;
+}
+
+#faturamento-mes, #valores-em-aberto{
+    font-size:10px;
+    
+}
+#quantia-faturamento,
+#quantia-faturamento * {
+  box-sizing: border-box;
+}
+.quantia-faturamento {
+  color: var(--branco, #ffffff);
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  position: relative;
+}
+
+#consultas-financeiro{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+}
+
+#grafico,
+.grafico * {
+  box-sizing: border-box;
+}
+.grafico {
+  position: relative;
+  margin-top: 5%;
+}
+.grafico-fundo {
+  background: #fbfcfe;
+  border-radius: 36px;
+  width: 316px;
+  height: 147px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+ }
+.group-33 {
+  width: 270px;
+  height: 107px;
+  position: static;
+}
+.rectangle-89 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 107px;
+  position: absolute;
+  left: 23px;
+  top: 24px;
+}
+.rectangle-95 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 95px;
+  position: absolute;
+  left: 179px;
+  top: 36px;
+}
+.rectangle-91 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 89px;
+  position: absolute;
+  left: 75px;
+  top: 42px;
+}
+.rectangle-96 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 89px;
+  position: absolute;
+  left: 231px;
+  top: 42px;
+}
+.rectangle-93 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 77px;
+  position: absolute;
+  left: 127px;
+  top: 54px;
+}
+.rectangle-97 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  left: 283px;
+  top: 31px;
+}
+.rectangle-90 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 69px;
+  position: absolute;
+  left: 49px;
+  top: 62px;
+}
+.rectangle-98 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 77px;
+  position: absolute;
+  left: 205px;
+  top: 54px;
+}
+.rectangle-92 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 32px;
+  position: absolute;
+  left: 101px;
+  top: 99px;
+}
+.rectangle-99 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 89px;
+  position: absolute;
+  left: 257px;
+  top: 42px;
+}
+.rectangle-94 {
+  background: var(--azul-neon, #2bdefd);
+  border-radius: 2px;
+  width: 10px;
+  height: 107px;
+  position: absolute;
+  left: 153px;
+  top: 24px;
+}
+
