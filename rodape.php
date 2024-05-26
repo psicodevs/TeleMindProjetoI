@@ -9,7 +9,7 @@
                 <img src="#" alt="">
             </div>
             <div class="medias-socias">
-                <img src="images/icon-facebook.svg" alt="Simbolo do Facebook">
+                <img src="/imagens/icon-facebook.svg" alt="Simbolo do Facebook">
                 <img src="images/icon-twitter.svg" alt="Simbolo do Twitter">
                 <img src="images/icon-pinterest.svg" alt="Simbolo do Pinterest">
                 <img src="images/icon-instagram.svg" alt="Simbolo do Instagram">

@@ -28,7 +28,6 @@ if(!isset($_SESSION)) {
            </div>
            <ul>
                 <a href="index.php">Home</a>
-                <a href="cadastro.php">Login</a>
                 <a href="agendar.php">Agenda</a>
                 <?php if(isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) {?>
                     <a href="logout.php">Logout</a>
