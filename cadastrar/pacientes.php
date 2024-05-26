@@ -72,12 +72,7 @@
       
       <button type="submit">Pesquisar</button>
 
-      <div class="footer">
-
-        <p>&copy; 2024 TeleMind</p>
-
-      </div>
-
+      
     </form>
 
   </div>

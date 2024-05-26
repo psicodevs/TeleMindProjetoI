@@ -24,67 +24,60 @@
 
 <!-- -------- -->
 
-  <div id="container">
+<div id="container">
+
+  <div>
+    <img id="cabecalho" src="assets/group-490.svg" alt=" Imagens de uma casinha, uma agenda, um calendário e o símbolo de um cifrão">
+  </div>
+  <div id="header">
+    <div id="monthDisplay"></div>
 
     <div>
-      <img id="cabecalho" src="assets/group-490.svg"
-        alt=" Imagens de uma casinha, uma agenda, um calendário e o símbolo de um cifrão">
+      <button id="backButton">Voltar</button>
+      <button id="nextButton">Próximo</button>
     </div>
-    <div id="header">
-      <div id="monthDisplay"></div>
-
-      <div>
-        <button id="backButton">Voltar</button>
-        <button id="nextButton">Próximo</button>
-      </div>
-
-    </div>
-
-    <div id="weekdays">
-      <div>Domingo</div>
-      <div>Segunda-feira</div>
-      <div>Terça-feira</div>
-      <div>Quarta-feira</div>
-      <div>Quinta-feira</div>
-      <div>Sexta-feira</div>
-      <div>Sábado</div>
-    </div>
-
-
-    <!-- div dinamic -->
-    <div id="calendar"></div>
-
-    <div class="footer">
-
-      <p>&copy; 2024 TeleMind</p>
-  
-    </div>
-
 
   </div>
 
-  <div id="newEventModal">
-    <h2>Agendar</h2>
-
-    <input id="eventTitleInput" placeholder="Agendamento" />
-
-    <button id="saveButton"> Salvar</button>
-    <button id="cancelButton">Cancelar</button>
+  <div id="weekdays">
+    <div>Domingo</div>
+    <div>Segunda-feira</div>
+    <div>Terça-feira</div>
+    <div>Quarta-feira</div>
+    <div>Quinta-feira</div>
+    <div>Sexta-feira</div>
+    <div>Sábado</div>
   </div>
 
-  <div id="deleteEventModal">
-    <h2>Evento</h2>
 
-    <div id="eventText"></div><br>
+  <!-- div dinamic -->
+  <div id="calendar"></div>
 
 
-    <button id="deleteButton">Deletar</button>
-    <button id="closeButton">Fechar</button>
-  </div>
+</div>
 
-  <div id="modalBackDrop"></div>
+<div id="newEventModal">
+  <h2>Agendar</h2>
 
-  <script src="scripts/darkMode.js"></script>
-  <script src="./scripts/main.js"></script>
+  <input id="eventTitleInput" placeholder="Agendamento" />
 
-  <?php include('rodape.php'); ?>
+  <button id="saveButton"> Salvar</button>
+  <button id="cancelButton">Cancelar</button>
+</div>
+
+<div id="deleteEventModal">
+  <h2>Evento</h2>
+
+  <div id="eventText"></div><br>
+
+
+  <button id="deleteButton">Deletar</button>
+  <button id="closeButton">Fechar</button>
+</div>
+
+<div id="modalBackDrop"></div>
+
+<script src="scripts/darkMode.js"></script>
+<script src="./scripts/main.js"></script>
+
+<?php include('rodape.php'); ?>

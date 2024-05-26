@@ -1,6 +1,3 @@
-<?php include("conexao.php"); ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +22,7 @@
             </svg>
         </div>
 
+        <form method="POST" action="login-consulta.php">
         <form id="login-dados">
             <input type="text" placeholder=" Username " required>
 
