@@ -1,3 +1,6 @@
+<?php include('cabecalho.php'); ?>
+<?php include("conexao.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,3 +78,6 @@
 </body>
 
 </html>
+
+<?php include('rodape.php'); ?>
+
