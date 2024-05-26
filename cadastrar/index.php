@@ -6,7 +6,6 @@
       <h2>Cadastre-se</h2>
     </section>
 
-    <form method="post" action="inserir-cadastro.php">
     <form id="form" class="form">
       <div class="form-content">
         <label for="username">Nome do usuário</label>
