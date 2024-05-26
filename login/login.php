@@ -1,3 +1,6 @@
+<?php include("conexao.php"); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,12 +39,4 @@
 
     </div>
 
-    <div class="footer">
-
-        <p>&copy; 2024 TeleMind</p>
-
-    </div>
-
-</body>
-
-</html>
+<?php include('rodape.php'); ?>

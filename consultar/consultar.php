@@ -1,3 +1,6 @@
+<?php include("conexao.php"); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,7 +82,6 @@
 </div>
 
 </div>
-
 </body>
 
-</html>
+<?php include('rodape.php'); ?>

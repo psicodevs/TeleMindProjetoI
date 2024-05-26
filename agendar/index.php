@@ -1,3 +1,6 @@
+<?php include("conexao.php"); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,8 +23,6 @@
 </div>
 
 <!-- -------- -->
-
-<body>
 
   <div id="container">
 
@@ -86,6 +87,4 @@
   <script src="scripts/darkMode.js"></script>
   <script src="./scripts/main.js"></script>
 
-</body>
-
-</html>
+  <?php include('rodape.php'); ?>
