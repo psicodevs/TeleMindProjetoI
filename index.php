@@ -4,7 +4,7 @@
         <div class="container">
             <div class="banner__text">
                 <div class="line"></div>
-                <h1>Afinal o que é o TeleMind?</h1>
+                <h1>O que é o TeleMind?</h1>
                 <p>
                     O intuito desse projeto é facilitar a administração e agendamento de consultas 
                     para os paciente de uma cliníca de Psicologia. Que as necessidades tanto da 

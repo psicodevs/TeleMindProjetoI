@@ -28,3 +28,5 @@
     </form>
     
 </section>
+
+<?php include('rodape.php'); ?>
