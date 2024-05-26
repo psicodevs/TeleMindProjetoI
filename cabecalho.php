@@ -31,7 +31,7 @@ if (!isset($_SESSION)) {
         <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
             <a href="logout.php">Logout</a>
         <?php } else { ?>
-            <a href="login.php">Login</a>
+            <a href="/login/login.php">Login</a>
         <?php } ?>
     </ul>
     <div class="menu-icon">

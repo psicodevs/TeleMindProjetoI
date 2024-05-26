@@ -12,8 +12,6 @@
 
 </head>
 
-<body>
-
 <div class="container">
 
   <div>
@@ -129,13 +127,7 @@
     </div>
     <img class="vector11" src="/pagamento/assets/vector2.svg"/>
   </div>
-
-  <div class="footer">
-
-    <p>&copy; 2024 TeleMind</p>
-
-  </div>
-
+  
 </div>
 
 <?php include('rodape.php'); ?>

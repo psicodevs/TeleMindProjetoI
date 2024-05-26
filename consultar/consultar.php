@@ -14,8 +14,6 @@
 
 </head>
 
-<body>
-
   <div class="container">
 
   <div>
@@ -75,13 +73,8 @@
 
   </form>
 
-  <div class="footer">
-
-    <p>&copy; 2024 TeleMind</p>
-    
+ 
 </div>
 
-</div>
-</body>
 
 <?php include('rodape.php'); ?>

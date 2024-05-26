@@ -11,8 +11,6 @@
     <title>Login</title>
 </head>
 
-<body>
-
     <div id="container">
         <div id="logo-brand">
             <svg id="logo" viewBox="0 0 100 100">
