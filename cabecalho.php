@@ -24,14 +24,12 @@ if(!isset($_SESSION)) {
 <body>
     <!-- nav -->
     <nav>
-        <div class="container">
-            <div class="logo">
-                <h2>TeleMind</h2>
-            </div>
-            <ul>
+           <h2>TeleMind</h2>
+           </div>
+           <ul>
                 <a href="index.php">Home</a>
-                <a href="cadastro.php">Cadastro</a>
-                <a href="agendar.php">Agendar</a>
+                <a href="cadastro.php">Login</a>
+                <a href="agendar.php">Agenda</a>
                 <?php if(isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) {?>
                     <a href="logout.php">Logout</a>
                 <?php } else { ?>
