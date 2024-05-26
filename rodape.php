@@ -43,3 +43,9 @@
         }
     });
 </script>
+
+<?php
+
+    include '../rodape.php'; 
+
+    ?>
