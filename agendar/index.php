@@ -1,4 +1,7 @@
-<?php include("conexao.php"); ?>
+
+
+<?php /* include("conexao.php"); */?>
+
 
 
 <!DOCTYPE html>
@@ -80,4 +83,4 @@
 <script src="scripts/darkMode.js"></script>
 <script src="./scripts/main.js"></script>
 
-<?php include('rodape.php'); ?>
+<?php/* include('rodape.php'); */?>

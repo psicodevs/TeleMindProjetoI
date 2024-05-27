@@ -7,7 +7,7 @@ Projeto Integrador I Eixo Tecnológico Univesp Polo Formosa São Paulo 2024
 
 </div>
 
-> Status do Projeto: :heavy_check_mark: :warning: Em desenvolvimento
+> Status do Projeto: :heavy_check_mark: :warning: Concluído.
 
 ### Tópicos 
 

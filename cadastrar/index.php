@@ -1,8 +1,8 @@
 <?php include('cabecalho.php'); ?>
 <?php include("conexao.php"); ?>
 
-
-<section class="header">
+<div class="containe">
+  <section class="header">
   <h2>Cadastre-se</h2>
 </section>
 
@@ -42,6 +42,9 @@
 </form>
 
 </div>
+
+</div>
+
 
 
 
